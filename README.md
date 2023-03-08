@@ -4,15 +4,17 @@ While taking many photos with my Sony A7iii, I run into the issue of having to g
 
 ## Installation
 
-Please make sure you have Python3 installed on your system to use this file and have updated it to the most current version (Python 3.10.10).
-Place the main.py into the folder that has all of your photo RAWS.
+Please make sure you have Python3 installed on your system to use this file and have updated it to the most current version (Python 3.10.10).\
+Place the main.py into the folder that has all of your photo RAWS.\
 Once installed you can move on to usage.
 
 ## Usage
+In the folder where the images are, shift+right-click in an empty spot and select "Open Powershell Window Here" and paste the following command:
 ```bash
 python3 main.py DESTINATION_FOLDER_NAME FILE_LIST.txt RAW_TYPE
 ```
-Be sure NOT to include the file type in the .txt.
+If you recieve an error idicating no python is found, please install the python version 3.10 via the Windows Microsoft Store\
+Be sure NOT to include the file type in the .txt.\
 Example .txt file for reference:
 ```txt
 _DSC3041
