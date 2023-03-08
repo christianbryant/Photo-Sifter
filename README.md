@@ -1,4 +1,7 @@
 # Photo-Sifter
+## Explanation
+While taking many photos with my Sony A7iii, I run into the issue of having to go through the lower .jpgs to find each photo I want to edit, then having to search through the folder again to find the respective raw. So I created this to shift through my images folder on my SD card to create a folder and add the files I want to edit.
+
 ## Installation
 
 Please make sure you have Python3 installed on your system to use this file and have updated it to the most current version (Python 3.10.10).
