@@ -3,12 +3,13 @@
 
 Please make sure you have Python3 installed on your system to use this file and have updated it to the most current version (Python 3.10.10).
 Place the main.py into the folder that has all of your photo RAWS.
-Once installed you can move onto usage.
+Once installed you can move on to usage.
 
 ## Usage
 ```bash
 python3 main.py DESTINATION_FOLDER_NAME FILE_LIST.txt RAW_TYPE
 ```
+Be sure NOT to include the file type in the .txt.
 Example .txt file for reference:
 ```txt
 _DSC3041
@@ -29,9 +30,8 @@ _DSC3517
 _DSC3523
 _DSC3574
 ```
-Be sure NOT to include the file type in the .txt
 The program shall print the following example information if successful:
-If Folder hasnt been created before usage:
+If the Folder hasn't been created before usage:
 ```bash
 Found 17 file names in file provided
 Folder created at J:\DCIM\100MSDCF\need_to_edit
@@ -86,7 +86,7 @@ Exception: Please provide command line input as follows:
  ```
  If this error is caught, it means there was nothing in the text file provided:
  ```bash
- Exception: No lines in provide file!
+ Exception: No lines in provided file!
  ```
  If this error is caught, it means there is no text file in the same directory as the python script:
  ```bash
@@ -96,6 +96,6 @@ Exception: Please provide command line input as follows:
  ```bash
  Exception: No image files present!
  ```
- If this error is caught, then there were no files in the directory that had the same name as the any of the files names provided in the .txt file:
+ If this error is caught, then there were no files in the directory that had the same name as any of the names of the files provided in the .txt file:
  ```bash
  Exception: Found none of the files that were provided in the file list!
