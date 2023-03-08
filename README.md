@@ -29,6 +29,7 @@ _DSC3517
 _DSC3523
 _DSC3574
 ```
+Be sure NOT to include the file type in the .txt
 The program shall print the following example information if successful:
 If Folder hasnt been created before usage:
 ```bash
