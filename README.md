@@ -5,17 +5,14 @@ While taking many photos with my Sony A7iii, I run into the issue of having to g
 ## Installation
 Tested on Windows 10 and macOS Ventura 13.0.1\
 Please make sure you have Python3 installed on your system to use this file and have updated it to the most current version (Python 3.10.10).\
-Place the main.py into the folder that has all of your photo RAWS.\
 Once installed you can move on to usage.
 
 ## Usage
 ### Windows 10
-In the folder where the images are, shift+right-click in an empty spot and select "Open Powershell Window Here" and paste the following command:
-```bash
-python3 main.py DESTINATION_FOLDER_NAME FILE_LIST.txt RAW_TYPE
-```
+Install the latest release https://github.com/TheRetroGuy2020/Photo-Sifter/releases/latest and run the UI
 If you recieve an error idicating no python is found, please install the python version 3.10 via the Windows Microsoft Store if on Windows\
 ### macOS
+MacOS makes it more difficult for me to run the program due to no dev licence to verify safe application executible, so you are gonna have to do it manually.
 On your Mac, open a Finder window, then navigate to the folder you want to use.\
 If you don’t see the path bar at the bottom of the Finder window, choose View > Show Path Bar.\
 Control-click the folder in the path bar, then do one of the following.\
@@ -94,7 +91,7 @@ Moved file _DSC3523.ARW
 Moved file _DSC3574.ARW
 Moved 17 files to folder J:\DCIM\100MSDCF\need_to_edit
 ```
-
+Please make sure when prompted for RAW file type, to include the . in the file type input: ".ARW" not "ARW"
 ## Errors
 If this error is caught, it means you did not provide the correct amount of command line arguments while running the script:
 ```bash
