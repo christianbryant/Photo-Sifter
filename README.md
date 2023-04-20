@@ -9,7 +9,7 @@ Once installed you can move on to usage.
 
 ## Usage
 ### Windows 10
-Install the latest release https://github.com/TheRetroGuy2020/Photo-Sifter/releases/latest and run the UI
+Install the latest release https://github.com/TheRetroGuy2020/Photo-Sifter/releases/latest and run the UI\
 If you recieve an error idicating no python is found, please install the python version 3.10 via the Windows Microsoft Store if on Windows\
 ### macOS
 MacOS makes it more difficult for me to run the program due to no dev licence to verify safe application executible, so you are gonna have to do it manually.
